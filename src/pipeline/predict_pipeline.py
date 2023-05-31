@@ -9,9 +9,9 @@ class PredictPipeline:
 
     def predic(self,features):
         try:
-            model_path='artifacts\model.pkl'
+            model_path='artifacts/model.pkl'
             print('Model path loaded')
-            preprocessor_path='artifacts\preprocessor.pkl'
+            preprocessor_path='artifacts/preprocessor.pkl'
             print('preprocess path loaded')
             model=load_object(file_path=model_path)
             print('Model loaded')
