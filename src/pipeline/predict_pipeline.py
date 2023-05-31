@@ -7,7 +7,7 @@ class PredictPipeline:
     def __init__(self):
         pass
 
-    def predict(self,features):
+    def predic(self,features):
         try:
             model_path='artifacts\model.pkl'
             print('Model path loaded')
